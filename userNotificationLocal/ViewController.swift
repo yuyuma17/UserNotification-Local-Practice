@@ -27,6 +27,15 @@ class ViewController: UIViewController {
         content.badge = 1
         content.sound = UNNotificationSound.default
         
+        //Add specific time trigger
+//        var date = DateComponents()
+//        date.year = 2019
+//        date.month = 9
+//        date.day = 17
+//        date.hour = 12
+//        date.minute = 12
+//        let trigger = UNCalendarNotificationTrigger(dateMatching: date, repeats: false)
+        
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 10, repeats: false)
         let request = UNNotificationRequest(identifier: "notification", content: content, trigger: trigger)
         
