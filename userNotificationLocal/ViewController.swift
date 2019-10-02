@@ -36,7 +36,7 @@ class ViewController: UIViewController {
 //        date.minute = 12
 //        let trigger = UNCalendarNotificationTrigger(dateMatching: date, repeats: false)
         
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 10, repeats: false)
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
         let request = UNNotificationRequest(identifier: "notification", content: content, trigger: trigger)
         
         UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
