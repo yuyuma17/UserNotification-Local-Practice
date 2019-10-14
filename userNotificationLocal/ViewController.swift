@@ -26,6 +26,11 @@ class ViewController: UIViewController {
         content.body = "還敢下來啊冰鳥"
         content.badge = 1
         content.sound = UNNotificationSound.default
+
+        let imageURL = Bundle.main.url(forResource: "bird", withExtension: "png")
+        let attachment = try! UNNotificationAttachment(identifier: "", url: imageURL!, options: nil)
+        
+        content.attachments = [attachment]
         
         //Add specific time trigger
 //        var date = DateComponents()

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16B6DF5C235423F9005F9787 /* bird.png in Resources */ = {isa = PBXBuildFile; fileRef = 16B6DF5B235423F9005F9787 /* bird.png */; };
+		16B6DF5E23542857005F9787 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 16B6DF5D23542857005F9787 /* README.md */; };
 		16E2EF9C2327A541007AA9BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E2EF9B2327A541007AA9BB /* AppDelegate.swift */; };
 		16E2EF9E2327A541007AA9BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E2EF9D2327A541007AA9BB /* ViewController.swift */; };
 		16E2EFA12327A541007AA9BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16E2EF9F2327A541007AA9BB /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16B6DF5B235423F9005F9787 /* bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird.png; sourceTree = "<group>"; };
+		16B6DF5D23542857005F9787 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		16E2EF982327A541007AA9BB /* userNotificationLocal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = userNotificationLocal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16E2EF9B2327A541007AA9BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16E2EF9D2327A541007AA9BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +42,7 @@
 		16E2EF8F2327A541007AA9BB = {
 			isa = PBXGroup;
 			children = (
+				16B6DF5D23542857005F9787 /* README.md */,
 				16E2EF9A2327A541007AA9BB /* userNotificationLocal */,
 				16E2EF992327A541007AA9BB /* Products */,
 			);
@@ -54,6 +59,7 @@
 		16E2EF9A2327A541007AA9BB /* userNotificationLocal */ = {
 			isa = PBXGroup;
 			children = (
+				16B6DF5B235423F9005F9787 /* bird.png */,
 				16E2EF9B2327A541007AA9BB /* AppDelegate.swift */,
 				16E2EF9D2327A541007AA9BB /* ViewController.swift */,
 				16E2EF9F2327A541007AA9BB /* Main.storyboard */,
@@ -122,7 +128,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16B6DF5C235423F9005F9787 /* bird.png in Resources */,
 				16E2EFA62327A542007AA9BB /* LaunchScreen.storyboard in Resources */,
+				16B6DF5E23542857005F9787 /* README.md in Resources */,
 				16E2EFA32327A542007AA9BB /* Assets.xcassets in Resources */,
 				16E2EFA12327A541007AA9BB /* Main.storyboard in Resources */,
 			);
