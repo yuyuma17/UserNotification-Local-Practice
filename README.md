@@ -1,4 +1,4 @@
-# UserNotificationLocal - Practice
+# UserNotification - Local - Practice
 Hi, I'm Lacie, an iOS developer.
 
 This is a project about practicing scheduling a local user notification.
