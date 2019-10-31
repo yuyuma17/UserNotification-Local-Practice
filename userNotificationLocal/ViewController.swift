@@ -26,6 +26,7 @@ class ViewController: UIViewController {
         content.body = "還敢下來啊冰鳥"
         content.badge = 1
         content.sound = UNNotificationSound.default
+        content.categoryIdentifier = "alarmMessage"
 
         let imageURL = Bundle.main.url(forResource: "bird", withExtension: "png")
         let attachment = try! UNNotificationAttachment(identifier: "", url: imageURL!, options: nil)
